@@ -16,12 +16,13 @@ class Product:
         print('product price : ',self._pprice)
         print('product description : ',self._pdescription)
 
+name=input('enter product name : ')
+price=input('enter product price : ')
+description=input('enter product description : ')
 
 p1=Product(name,price,description)
 
-p1.name=input('enter product name : ')
-p1.price=input('enter product price : ')
-p1.description=input('enter product description : ')
+
 
 p1.getProDetails()
         
